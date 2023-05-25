@@ -42,7 +42,8 @@ const FollowMouse = () => {
 
   return (
     <>
-      <div style={{
+      <div style={{    
+        display: `${enabled ? "block" : "none"}`,
         position: 'absolute',
         backgroundColor: 'rgba(0, 0, 0, 0.5)',
         border: '1px solid #fff',
